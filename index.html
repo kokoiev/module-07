@@ -69,17 +69,38 @@
         <p class="section-description">
           Proin iaculis purus consequat sem cure.
         </p>
-        <form action="" class="form">
+        <form action="#" method="GET" class="form">
           <div class="wrapper">
             <ul class="form-list">
-              <input type="text" class="form-input" />
-              <input type="text" class="form-input" />
-              <input type="text" class="form-input" />
+              <input
+                name="user_name"
+                type="text"
+                class="form-input"
+                placeholder="Your name*"
+                required
+                minlength="2"
+              />
+              <input
+                name="user_e-mail"
+                type="email"
+                class="form-input"
+                placeholder="Your e-mail*"
+                required
+              />
+              <input
+                name="user_subject"
+                type="tel"
+                class="form-input"
+                placeholder="subject"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              />
             </ul>
-            <input type="text" class="form-input input-message" />
-          </div>
+            <textarea name="user_message" id="" class="form-input input-message"
+              placeholder="Your message*"
+              required maxlength="160" ></textarea>
+                      </div>
 
-          <buttton class="form-btn">send message</buttton>
+          <button class="form-btn">send message</buttton>
         </form>
       </div>
     </section>

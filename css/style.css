@@ -216,6 +216,11 @@ h6 {
   margin-bottom: 75px;
   color: #777777;
 }
+.services-list-item {
+  width: 270px;
+  line-height: 1.5;
+  font-size: 14px;
+}
 .services-list {
   display: flex;
   justify-content: space-between;
@@ -286,6 +291,9 @@ h6 {
 .input-message {
   height: 209px;
   width: 455px;
+  resize: none;
+  padding-left: 10px;
+  padding-top: 20px;
 }
 .form-btn {
   display: block;
@@ -308,4 +316,17 @@ h6 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.form-input {
+  text-indent: 10px;
+  font-size: 16px;
+}
+.form-input:required:focus:valid:not(:placeholder-shown) {
+  border: 3px solid green;
+}
+.form-input:required:focus:invalid:not(:placeholder-shown) {
+  border: 3px solid red;
+}
+.form-input::placeholder {
+  text-transform: uppercase;
 }
