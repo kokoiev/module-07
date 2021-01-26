@@ -179,7 +179,7 @@ h6 {
   text-transform: uppercase;
   align-items: baseline;
   padding-top: 50px;
-  margin-bottom: 125px;
+  padding-bottom: 125px;
 }
 .site-logo {
   font-family: "Kaushan Script";
@@ -213,7 +213,7 @@ h6 {
   font-weight: 400;
   text-align: center;
   padding-top: 20px;
-  margin-bottom: 75px;
+  padding-bottom: 75px;
   color: #777777;
 }
 .services-list-item {
@@ -224,7 +224,7 @@ h6 {
 .services-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .services-item-title {
   font-family: "Montserrat";
